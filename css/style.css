@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root{
+    --ff:"Manrope";
+    --ff-1-size:56px;
+    --ff-2-size:40px;
+    --ff-3-size:40px;
+    --ff-5-size:24px;
+    --ff-4-size:15px;
+    --orange:#D87D4A;
+    --orange-light:#fbaf85;
+    --gray-light: #F1F1F1;
+    --gray-light-very:#FAFAFA;
+    --casual-black: #191919;
+    --gray-dark: #4C4C4C;
+}
+
+body{
+    font-family: "Manrope",sans-serif;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+#hero{
+    background-image: url(../assets/home/desktop/image-hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: var(--casual-black);
+    padding: 225px 877px 158px 165px;
+}
+.btn-hero{
+    text-decoration: none;
+    color: white;
+    font-size: var(--ff-4-size);
+    background-color: var(--orange);
+    padding: 5px 20px;
+}
+.btn-hero:hover{
+        background-color: var(--orange-light);
+
+}
+.btn-card-big{
+    text-decoration: none;
+    color: white;
+    font-size: var(--ff-4-size);
+    background-color: black;
+    padding: 5px 20px;
+}
+.btn-card-big:hover{
+        background-color: var(--gray-dark);
+
+}
+.btn-card{
+    text-decoration: none;
+    color: black;
+    font-size: var(--ff-4-size);
+    padding: 5px 20px;
+    border: 2px solid black;
+}
+.btn-card:hover{
+    background-color: black;
+    color: white;
+}
+.hero-content{
+    width: 400px;
+}
+.h1{
+    font-size: var(--ff-1-size);
+    color: white;
+}
+.p{
+    font-size: var(--ff-4-size);
+    color: white;
+    line-height: 15px;
+}
+.p-hero{
+    color: var(--gray-light);
+    font-size: var(--ff-4-size);
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+.h5{
+    font-size: var(--ff-5-size);
+    color: black;
+}
+.h2{
+    text-transform: uppercase;
+    font-size:var(--ff-2-size);
+}
+.p-about{
+    color: var(--gray-dark);
+    line-height: 25px;
+    font-size: var(--ff-4-size);
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+nav a{
+    color: white;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: var(--orange);
+}
+.footer-mid p{
+    color: var(--gray-dark);
+}
+.footer-bottom p{
+    color: var(--gray-dark);
+}
+
+.products-container{
+    margin: 200px 0 168px 0;
+    display: flex;
+    gap: 30px;
+}
+.products-card a:hover{
+    color: var(--orange);
+}
+.products-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    background-color: var(--gray-light-very);
+    padding: 80px 0;
+    border-radius: 8px;
+}
+.products-card a{
+    text-decoration: none;
+    color: black;
+}
+.products-card img{
+    position: absolute;
+    top: -80px;
+    left: 80px;
+    right: 80px;
+    width: 200px;
+}
+#new-products{
+    margin-bottom: 200px;
+}
+.products-card-big{
+    background-image: url(../assets/home/desktop/image-speaker-zx9.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 120px 96px;
+    background-color:var(--orange);
+    display: flex;
+    justify-content: flex-end;
+    height: 560px;
+    border-radius: 8px;
+}
+.products-card-big h2{
+    color: white;
+}
+.products-card-big img{
+    width: 410px;
+}
+.products-card-big div{
+    margin: 130px 95px 100px 100px;
+    width: 340px;
+
+    text-align: center; 
+}
+.products-card-mid{
+    background-image:url(../assets/home/desktop/image-speaker-zx7.jpg);
+    display: flex;
+    border-radius: 8px;
+    height: 320px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 95px;
+    margin: 48px 0;
+}
+.products-card-small{
+    display: flex;
+    gap:30px;
+}
+.products-card-small img{
+    width: 540px;
+    border-radius: 8px;
+}
+.small-content{
+    background-color: var(--gray-light-very);
+    border-radius: 8px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 95px;
+}
+.small-content a{
+    width: 100px;
+}
+
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap:120px
+}
+
+footer{
+    margin-top: 120px;
+    color: white;
+    background-color: var(--casual-black);
+    padding: 75px 0 40px 0px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    margin-left: 20px;
+}
+li{
+    list-style: none;
+}
+.footer-mid{
+    width: 540px;
+    height: 100px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+@media (max-width:768px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .container{
+        width: 689px;
+    }
+    #hero{
+        width: 100%;
+        background-image: url(../assets/home/desktop/image-hero.jpg);
+        background-size: contain;
+        background-position: -810px center;
+        background-repeat: no-rpeat;
+        height: 729px;
+        text-align: center;
+    }
+    .hero-content{
+        margin-top: 150px;
+
+    }
+    .products-card img{
+        position: absolute;
+        top: -80px;
+        left: 10px;
+        right: 10px;
+        width: 200px;
+    }
+
+    .products-card-big{
+        background-image: url(../assets/home/desktop/image-speaker-zx9.png);
+        background-repeat: no-repeat;
+        background-size: 197px 237px;
+        background-position: center 80px;
+        width: 100%;
+        height: 720px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .products-card-mid{
+        width: 100%;
+        height: 320px;
+         background-image:url(../assets/home/desktop/image-speaker-zx7.jpg);
+         background-repeat: no-repeat;
+         background-position: center center;
+         padding-left: 0px;
+    }
+    .products-card-mid  div{
+        margin: 101px 423px 101px 62px ;
+    }
+    .products-card-small{
+        width:100%;
+        height: 320px;
+        gap: 11px;
+        margin-bottom: 96px;
+    }
+    .products-card-small img{
+        width: 50%;
+    }
+    .small-content{
+        width: 50%;
+        padding: 101px 51px 101px 41px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:63px;
+        text-align: center;
+    }
+    .about img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    
+}
+
+@media (max-width:375px) {
+    html, body {
+        overflow-x: hidden;
+    }
+    .container{
+        width: 327px;
+    }
+    #hero{
+        width: 100%;
+        background-image: url(../assets/home/desktop/image-hero.jpg);
+        background-size: 80% ,contain;
+        background-position: -575px center;
+        background-repeat: no-repeat;
+        height: 600px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-content{
+        margin: 15px 0px 150px -170px ;
+        max-width: 350px;
+    }
+    .h1{
+        font-size: 45px;
+    }
+    .p{
+        width: 328px; 
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .products-container{
+        display: flex;
+        flex-direction: column;
+        gap:100px;
+    }
+    .products-card{
+        width: 100%;
+        height: 100px;
+    }
+    .products-card img{
+        position: absolute;
+        top: -80px;
+        left: 65px;
+        right: 10px;
+        width: 200px;
+    }
+
+    .products-card-big{
+        background-image: url(../assets/home/desktop/image-speaker-zx9.png);
+        background-repeat: no-repeat;
+        background-size: 197px 237px;
+        background-position: center 80px;
+        width: 100%;
+        height: 720px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .products-card-mid{
+        width: 100%;
+        height: 320px;
+         background-image:url(../assets/home/desktop/image-speaker-zx7.jpg);
+         background-repeat: no-repeat;
+         background-position: center center;
+         padding-left: 0px;
+    }
+    .products-card-mid  div{
+        margin: 101px 423px 101px 62px ;
+    }
+    .products-card-small{
+        width:100%;
+        height: 320px;
+        gap: 11px;
+        margin-bottom: 96px;
+        display: flex;
+        flex-direction: column;
+    }
+    .products-card-small img{
+        width: 100%;
+    }
+    .small-content{
+        width: 100%;
+        padding: 101px 51px 101px 10px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:40px;
+        text-align: center;
+
+       }
+    .about img{
+        margin-top: 120px;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .footer-top{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    .footer-top nav{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin-right: 15px;
+    }
+    .footer-mid{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
