@@ -246,7 +246,7 @@ li{
     gap: 10px;
 }
 
-@media (width:768px) {
+@media (max-width:768px) {
     html, body {
         overflow-x: hidden;
     }
@@ -326,7 +326,7 @@ li{
     
 }
 
-@media (max-width:400px) {
+@media (max-width:375px) {
     html, body {
         overflow-x: hidden;
     }
